@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="urna-1.css">
+        <title>URNA ELETRÔNICA</title>
+    </head>
+    <body>
+      <div id="tela2"></div>
+        <div id="title">
+          <h1>CIPA 2024. ESCOLHA O SEU REPRESENTANTE.</h1>
+        </div>
+        <p id="esconder"></p>
+        <div id="urna">
+          <div id="result">
+            <p>Tiago
+              <p id="tiago" value="0"></p>
+            </p>
+            <p>Doralice
+              <p id="doralice" value="0"></p>
+            </p>
+            <p>Noemia
+              <p id="noemia" value="0"></p>
+            </p>
+            <p>Gilvan
+              <p id="gilvan" value="0"></p>
+            </p>
+          </div>
+          
+          
+          <p id="tela"></p>
+          <div id="nove">
+            <button id="BTnove" value="9" type="button" onclick="digitar9()">9</button>
+          </div>
+          <div id="oito">
+            <button id="BToito" value="8" type="button" onclick="digitar8()">8</button>
+          </div>
+          <div id="sete">
+            <button id="BTsete" value="7" type="button" onclick="digitar7()">7</button>
+          </div></br>
+          <div id="seis">
+            <button id="BTseis" value="6" type="button" onclick="digitar6()">6</button>
+          </div>
+          <div id="cinco">
+            <button id="BTcinco" value="5" type="button" onclick="digitar5()">5</button>
+          </div>
+          <div id="quatro">
+            <button id="BTquatro" value="4" type="button" onclick="digitar4()">4</button>
+          </div></br>
+          <div id="treis">
+            <button id="BTtreis" value="3" type="button" onclick="digitar3()">3</button>
+          </div>
+          <div id="dois">
+            <button id="BTdois"   value="2" type="button" onclick="digitar2()">2</button>
+          </div>
+          <div id="um">
+            <button id="BTum"  value="1" type="button" onclick="digitar1()">1</button>
+          </div></br>
+          <div id="zero">
+            <button id="BTzero"  value="0" type="button" onclick="digitar0()">0</button>
+          </div></br>
+          <div id="menu">
+            <button id="BTmenu" type="button" onclick="imprimir()">AUD.</button>
+          </div>
+          <div id="corrigir">
+            <button id="BTcorrigir" type="button" onclick="corrigir()">CORRIGIR</button>
+          </div>
+          <div id="confirmar">
+            <button id="BTconfirmar" type="button" onclick="votar()">CONFIRMAR</button>
+          </div>
+        </div>
+        <div>
+         <p id="esconder2"></p>
+         <audio  id="audio1" controls>
+           <source id="audio1" src="friend-request-14878.mp3" type="audio/mpeg">
+         </audio>
+         <p id="esconder3"></p>
+         <audio  id="audio2" controls>
+           <source src="beep-sound-8333.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+        <script src="urna-1.js"></script>
+    </body>
+ </html>
