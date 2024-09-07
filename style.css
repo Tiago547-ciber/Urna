@@ -91,10 +91,10 @@ img {
 #esconder2 {
     position:absolute;
     z-index: 2;
-    margin-left: 75%;
-    margin-top: 35%;
-    width: 300px;
-    height: 300px;
+    margin-left: 70%;
+    margin-top: 5%;
+    width: 400px;
+    height: 700px;
     background-color: white;
 }
 
