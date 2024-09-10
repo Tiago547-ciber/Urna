@@ -81,9 +81,9 @@ img {
 #esconder {
     position:absolute;
     z-index: 2;
-    margin-left: 49%;
+    margin-left: 69%;
     margin-top: 5%;
-    width: 70px;
+    width: 100px;
     height: 300px;
     background-color: white;
 }
