@@ -118,10 +118,10 @@ function imprimir () {
 setInterval (function mostrar (){
     
     var a = document.getElementById("tela").innerText;
-    var candidato1 = "22547";
-    var candidato2 = "35478";
-    var candidato3 = "27878";
-    var candidato4 = "31222";
+    var candidato1 = "22";
+    var candidato2 = "35";
+    var candidato3 = "27";
+    var candidato4 = "31";
     
 
     if (a == candidato1) {
