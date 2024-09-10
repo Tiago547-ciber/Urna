@@ -101,6 +101,7 @@ function digitar9() {
 
 function corrigir () {
     document.getElementById("tela").innerText = null;
+    document.getElementById("tela2").innerText = null;
 }
 
 function imprimir () {
