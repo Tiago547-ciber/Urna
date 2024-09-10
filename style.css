@@ -91,10 +91,10 @@ img {
 #esconder2 {
     position:absolute;
     z-index: 2;
-    margin-left: 70%;
-    margin-top: 5%;
-    width: 400px;
-    height: 700px;
+    margin-left: 75%;
+    margin-top: 35%;
+    width: 300px;
+    height: 300px;
     background-color: white;
 }
 
@@ -244,4 +244,247 @@ img {
 #nove {
   
     float: left;
+}
+@media (max-width: 768px) {
+    body{
+    background-image:url(CIPA.jpeg);
+    background-size: 800px 1400px;
+    background-repeat: no-repeat;
+    background-position:40%;
+    }
+    #title {
+    position: absolute;
+    z-index: 2;
+    margin-left: 100px;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+    #candidatos {
+    position: absolute;
+    z-index: 3;
+    margin-left: 350px;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+    #urna {
+    position:absolute;
+    z-index: 1;
+    margin-left: 35%;
+    margin-top: 5%;
+   
+    }
+    #audio1 {
+    margin-left: 2%;
+    margin-top: 40%;
+    width: 20%;
+    }
+
+    #audio2 {
+    margin-left: 2%;
+    width: 20%;
+    }
+
+    img {
+    border-radius: 5%;
+    }
+
+    #tela2{
+    position:absolute;
+    z-index: 3;
+    margin-left: 1%;
+    margin-top: 12%;
+    font-size: 40px;
+    width: 245px;
+    height: 380px;
+    background-color: white;
+    border-style:inset;
+    border-color: black;
+    border-radius: 5%;
+   
+    }
+
+    #tela{
+    position: absolute;
+    z-index: 3;
+    text-align: right;
+    margin: 60px 2px;
+    font-size: 40px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border-style:inset;
+    border-color: black;
+    border-radius: 5%;
+    }
+
+    #result {
+    position: absolute;
+    z-index: 2;
+    margin: 70px 120px;
+    }
+   
+    #esconder {
+    position:absolute;
+    z-index: 2;
+    margin-left: 3%;
+    margin-top: 20%;
+    width: 10px;
+    height: 100px;
+   
+    background-color: white;
+    }
+
+    #esconder2 {
+    position:absolute;
+    z-index: 2;
+    margin-left: 100%;
+    margin-top: 5%;
+    width: 1px;
+    height: 1px;
+   
+    background-color: white;
+    }
+
+
+
+
+    #BTmenu {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 100%;
+    margin-left: 5%;
+    margin: 80px 300px;
+    position:absolute;
+    z-index: 1;
+    background-color: silver;
+    }
+
+    #BTcorrigir {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 25px;
+    border-radius: 10%;
+    margin: 180px 280px;
+    position:absolute;
+    z-index: 1;
+    background-color: orangered;
+    }
+
+    #BTconfirmar {
+    width: 100px;
+    height: 50px;
+    float: left;
+    border-radius: 10%;
+    margin: 280px 280px;
+    position: absolute;
+    z-index: 1;
+    background-color: green;
+    }
+
+
+
+    #BTzero {
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    margin: 300px 90px;
+    position: absolute;
+    z-index: 3;
+    }
+
+    #BTum {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 239px 10px;
+    }
+
+    #BTdois {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 239px 90px;
+    }
+
+    #BTtreis {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 239px 170px;
+    }
+
+    #BTquatro {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 177px 10px;
+    }
+
+    #BTcinco {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 177px 90px;
+    }
+
+    #BTseis {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 177px 170px;
+    }
+
+    #BTsete {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 115px 10px;
+    }
+
+    #BToito {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 115px 90px;
+    }
+
+    #BTnove {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin: 115px 170px;
+    }
+
 }
