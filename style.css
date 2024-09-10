@@ -245,7 +245,7 @@ img {
   
     float: left;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     body{
     background-image:url(CIPA.jpeg);
     background-size: 800px 1400px;
