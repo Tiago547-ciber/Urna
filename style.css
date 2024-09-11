@@ -258,6 +258,12 @@ img {
     background-repeat: no-repeat;
     background-position:40%;
     }
+    
+    #fim {
+    text-align: center;
+    margin-top: 150px;
+    }
+    
     #title {
     position: absolute;
     z-index: 2;
