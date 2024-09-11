@@ -227,7 +227,7 @@ function votar () {
         "FERNANDO, obteve: ", g," votos.");
         print();
     }
-    else {window.alert("Erro");
+    else {
     document.getElementById("tela").innerText = null;}
 }
 
