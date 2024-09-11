@@ -189,10 +189,10 @@ function votar () {
         voto1++;
         
         document.getElementById("tela").innerText = null;
-        document.getElementById("tela2").innerText = '<h1>FIM!</h1';
+        document.getElementById("tela2").innerHTML = '<h1 id="fim">FIM!</h1>';
         setTimeout(() => {
-            document.getElementById("tela2").innerText = null;
-        }, 2000);
+            document.getElementById("tela2").innerHTML = null;
+        }, 3000);
         
     }
         
@@ -203,21 +203,30 @@ function votar () {
         document.getElementById("doralice").innerHTML = voto2;
         voto2++;
         document.getElementById("tela").innerText = null;
-        document.getElementById("tela2").innerText = null;
+        document.getElementById("tela2").innerHTML = '<h1 id="fim">FIM!</h1>';
+        setTimeout(() => {
+            document.getElementById("tela2").innerHTML = null;
+        }, 3000);
     }
      else if (a == candidato3) {
         
         document.getElementById("noemia").innerHTML = voto3;
         voto3++;
         document.getElementById("tela").innerText = null;
-        document.getElementById("tela2").innerText = null;
+        document.getElementById("tela2").innerHTML = '<h1 id="fim">FIM!</h1>';
+        setTimeout(() => {
+            document.getElementById("tela2").innerHTML = null;
+        }, 3000);
     }
      else if (a == candidato4) {
         
         document.getElementById("gilvan").innerHTML = voto4;
         voto4++;
         document.getElementById("tela").innerText = null;
-        document.getElementById("tela2").innerText = null;
+        document.getElementById("tela2").innerHTML = '<h1 id="fim">FIM!</h1>';
+        setTimeout(() => {
+            document.getElementById("tela2").innerHTML = null;
+        }, 3000);
     }
     else if (a == senha) {
         var d = document.getElementById("tiago").innerHTML;
