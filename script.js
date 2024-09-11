@@ -175,10 +175,10 @@ senha = 1234;
 function votar () {
     var b = document.querySelector("#audio1");
     var a = document.getElementById("tela").innerText;
-    var candidato1 = "22547";
-    var candidato2 = "35478";
-    var candidato3 = "27878";
-    var candidato4 = "31222";
+    var candidato1 = "22";
+    var candidato2 = "35";
+    var candidato3 = "27";
+    var candidato4 = "31";
     b.play()
     
 
@@ -228,7 +228,8 @@ function votar () {
         print();
     }
     else {
-    document.getElementById("tela").innerText = null;}
+        window.alert("Erro!");
+        document.getElementById("tela").innerText = null;}
 }
 
 
