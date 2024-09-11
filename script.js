@@ -189,8 +189,10 @@ function votar () {
         voto1++;
         
         document.getElementById("tela").innerText = null;
-        document.getElementById("tela2").innerText = null;
-       
+        document.getElementById("tela2").innerText = '<h1>FIM!</h1';
+        setTimeout(() => {
+            document.getElementById("tela2").innerText = null;
+        }, 2000);
         
     }
         
