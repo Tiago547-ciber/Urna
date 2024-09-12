@@ -202,6 +202,210 @@ img {
     width: 100px;
     height: 100px;
     float: left;
+body{
+    background-image:url(CIPA.jpeg);
+    background-size: 1000px 750px;
+    background-repeat: no-repeat;
+    background-position:40%;
+}
+
+#fim {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#title {
+    position: absolute;
+    z-index: 2;
+    margin-left: 250px;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#candidatos {
+    position: absolute;
+    z-index: 3;
+    margin-left: 350px;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#urna {
+    position:absolute;
+    z-index: 1;
+    margin-left: 35%;
+    margin-top: 5%;
+   
+}
+#audio1 {
+    margin-left: 80%;
+    margin-top: 38%;
+}
+
+#audio2 {
+    margin-left: 80%;
+   
+}
+
+img {
+    border-radius: 5%;
+}
+
+#tela2{
+    position:absolute;
+    z-index: 1;
+    margin-left: 16%;
+    margin-top: 8%;
+    font-size: 40px;
+    width: 245px;
+    height: 380px;
+    background-color: white;
+    border-style:inset;
+    border-color: black;
+    border-radius: 5%;
+   
+}
+
+#tela{
+    /*position: absolute;
+    z-index: 3;*/
+    text-align: right;
+    font-size: 40px;
+    width: 1000x;
+    height: 40px;
+    background-color: white;
+    border-style:inset;
+    border-color: black;
+    border-radius: 5%;
+}
+
+#result {
+    position:absolute;
+    z-index: 2;
+    margin-left: 250%;
+    margin-top: 5%;
+   
+
+}
+
+#esconder {
+    position:absolute;
+    z-index: 2;
+    margin-left: 80%;
+    margin-top: 5%;
+    width: 100px;
+    height: 300px;
+    background-color: white;
+}
+
+#esconder2 {
+    position:absolute;
+    z-index: 2;
+    margin-left: 80%;
+    margin-top: 35%;
+    width: 320px;
+    height: 300px;
+    background-color: white;
+}
+
+
+
+#BTmenu {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 100%;
+    margin-left: 5%;
+    background-color: silver;
+}
+
+#BTcorrigir {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 25px;
+    border-radius: 10%;
+    background-color: orangered;
+}
+
+#BTconfirmar {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 8px;
+    border-radius: 10%;
+    background-color: green;
+}
+
+
+
+#BTzero {
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
+    border-radius: 10%;
+}
+
+#BTum {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10%;
+}
+
+#BTdois {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10%;
+}
+
+#BTtreis {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10%;
+}
+
+#BTquatro {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10%;
+}
+
+#BTcinco {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10%;
+}
+
+#BTseis {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10%;
+}
+
+#BTsete {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10%;
+}
+
+#BToito {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10%;
+}
+
+#BTnove {
+    width: 100px;
+    height: 100px;
+    float: left;
     border-radius: 10%;
 }
 
@@ -213,12 +417,12 @@ img {
 }
 
 #dois {
-    
+   
     float: left;
 }
 
 #treis {
-  
+ 
     float: left;
 }
 
@@ -233,12 +437,12 @@ img {
 }
 
 #seis {
-  
+ 
     float: left;
 }
 
 #sete {
-  
+ 
     float: left;
 }
 
@@ -248,7 +452,7 @@ img {
 }
 
 #nove {
-  
+ 
     float: left;
 }
 @media (max-width: 1400px) {
